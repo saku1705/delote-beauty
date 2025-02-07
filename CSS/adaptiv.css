@@ -1,0 +1,99 @@
+@media screen and (max-width: 1629px) {
+  .hero-title {
+    margin-block: 150px;
+  }
+  .works-imgs img {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 1600px) {
+  #services .card {
+    width: 23%;
+  }
+  #services {
+    gap: 60px;
+  }
+  .card-img,
+  .card-img img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .card-img {
+    height: 205px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .card-img {
+    height: 205px;
+  }
+}
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  gap: unset;
+  margin: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .card-img {
+    height: 205px;
+  }
+  .card-title {
+    font-size: 16px;
+  }
+  #partners img {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .card-img {
+    height: 100px;
+  }
+  .card-img {
+    height: 100px;
+  }
+  .nav-list li:first-child,
+  .nav-list li:last-child,
+  .nav-list li:nth-child(4) {
+    margin: 0;
+  }
+  .hero-title {
+    margin-block: 225px;
+    font-size: 50px;
+  }
+  #info img {
+    margin-top: 45px;
+    margin-bottom: 20px;
+    width: 50px;
+  }
+
+  #partners {
+    margin-block: 60px;
+  }
+
+  #works h2 {
+    font-size: 35px;
+  }
+  .works-list {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .cards-big {
+    display: none;
+  }
+  .swiper {
+    display: block !important;
+  }
+
+  #services .card {
+    width: 46%;
+  }
+
+  .card-img {
+    height: 179px;
+  }
+}
